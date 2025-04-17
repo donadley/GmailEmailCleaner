@@ -54,6 +54,7 @@ pip install -r requirements.txt
 
 5. Running the App
 python emailCleanup.py
+```
 
 *You'll be prompted to authorize access in your browser the first time you run it.
 After that, it will scan for emails older than 2 years, list the subject lines and dates, and optionally delete them.*
@@ -62,6 +63,7 @@ After that, it will scan for emails older than 2 years, list the subject lines a
 
 
 ## Configuration
+
 You can customize the number of days to look back (default is 730 days = 2 years) by changing:
 
 age_in_days = 730
@@ -74,10 +76,12 @@ This script can delete emails, so use it carefully.
 Make sure you’re not deleting important messages.
 
 ## License
+
 MIT License
 
 
 ## Contact
+
 Created by @donadley
 Questions or suggestions? Feel free to open an issue or contribute!
 ---
